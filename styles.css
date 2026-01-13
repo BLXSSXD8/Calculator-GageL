@@ -77,3 +77,26 @@ body {
   color: #232323;
   background: rgb(216, 74, 74);
 }
+
+.calc-button:last-child:hover{
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.calc-button:hover{
+  cursor: pointer;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.calc-button:active{
+  background-color: #181818;
+}
+
+.double{
+  flex-basis: 47%;
+}
+
+.triple{
+  flex-basis: 47%;
+}
